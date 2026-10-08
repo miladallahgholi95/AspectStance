@@ -1,0 +1,9 @@
+# Workspaces hold tweet texts, glosses, embeddings and API caches: never commit them.
+workspace*/
+.aspectstance-cache/
+*.sqlite
+*.npy
+*.joblib
+__pycache__/
+*.egg-info/
+.pytest_cache/

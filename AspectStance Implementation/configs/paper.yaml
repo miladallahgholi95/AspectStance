@@ -1,0 +1,33 @@
+# Settings reported in the paper (Section 5.4). Every estimator setting that is not listed here
+# (K-means, KNN, XGBoost, random forest) stays at the scikit-learn / XGBoost library default.
+
+llm:                          # gloss (Fig. 2), cluster naming (App. A.1), prompting baselines (A.2-A.3)
+  model: gpt-6-luna           # OpenAI GPT-6 Luna
+  reasoning_effort: medium    # "every GPT-6 Luna call uses the medium reasoning-effort setting"
+  api: responses
+  workers: 8
+
+embedding:                    # E(.) of Eq. (5), applied separately to the post and to its gloss
+  backend: openai
+  model: text-embedding-3-large   # 3,072 dimensions per input
+  batch_size: 256
+
+experiment:
+  seeds: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]   # ten runs that differ only in the random seed
+  umap:                       # one mapping per target, fitted on the training posts only
+    n_components: 20          # each view -> 20 dimensions, v = [r; r~] in R^40
+    n_neighbors: 15
+    min_dist: 0.1
+    metric: cosine
+  clustering:                 # K-means on L2-normalised v, K chosen by cosine silhouette
+    k_min: 2
+    k_max: 30
+    silhouette_metric: cosine
+  random_control:             # clustering-strategy control: 16 values of K x 10 draws = 160 runs
+    k_min: 5
+    k_max: 20
+    draws_per_k: 10
+  run_base: true              # Base Method: same ensemble without the one-hot cluster block
+  run_random_control: true
+  run_invariance_checks: true
+  n_jobs: 1
