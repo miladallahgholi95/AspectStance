@@ -279,7 +279,7 @@ z_i = \bigl[v_i; \operatorname{onehot}(c_i)\bigr] \in \mathbb{R}^{40 + K_T}.
 \end{equation}
 A one-hot encoding treats aspects as unordered categories; a single integer index would instead impose an arbitrary order on the aspects, which would shape both the distances computed by the nearest-neighbour member and the splits of the tree-based members.
 
-We implement \(f_T\) as an ensemble of three classifiers: k-nearest neighbours (KNN) \cite{cover1967nearest}, XGBoost \cite{chen2016xgboost}, and a random forest \cite{breiman2001random}, each trained on \(z_i\). The members are combined by \emph{soft} voting: each member \(m\) returns a distribution \(p_m(\cdot \mid z)\) over the label set for the input \(z = [v; \operatorname{onehot}(c)]\), the three distributions are averaged with equal weight, and the label with the highest mean probability is predicted,
+We implement \(f_T\) as an ensemble of three classifiers: k-nearest neighbours (KNN) \cite{cover1967nearest}, XGBoost \cite{chen2016xgboost}, and a random forest \cite{breiman2001random}, each trained on \(z_i\). The members are combined by \emph{soft} voting: each member \(m\) returns a distribution \(p_m(\cdot \mid z)\) over the label set for the input \mbox{\(z = [v; \operatorname{onehot}(c)]\)}, the three distributions are averaged with equal weight, and the label with the highest mean probability is predicted,
 \begin{equation}\label{eq:vote}
 \hat{y} = f_T(x, c) = \arg\max_{y \in \mathcal{Y}_T} \; \frac{1}{3}\sum_{m=1}^{3} p_m(y \mid z).
 \end{equation}
@@ -296,7 +296,7 @@ Finally, the ensemble predicts the stance from the unnormalised representation o
 \begin{equation}\label{eq:predict}
 \hat{y} = f_T\bigl(x,\, h_T(x)\bigr),
 \end{equation}
-where the ensemble of Eq.~\eqref{eq:vote} receives \(z = [v; \operatorname{onehot}(h_T(x))]\).
+where the ensemble of Eq.~\eqref{eq:vote} receives the input \mbox{\(z = [v; \operatorname{onehot}(h_T(x))]\)}.
 Training and inference thus use the same two feature types. The stance label keeps the benchmark's target-level meaning, and the returned aspect index identifies the cluster used for conditioning, so each prediction can be inspected alongside the training posts of that cluster.
 
 \begin{table*}[t]
