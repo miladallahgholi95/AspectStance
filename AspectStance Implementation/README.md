@@ -72,10 +72,10 @@ and ensemble are then frozen and reused at inference.
 |:-:|---|---|:-:|
 | 1 | **Gloss** | GPT-6 Luna writes a 30-50-word, target-conditioned explanation of the post: $\tilde{x}=g(x,T)$ | §4.2, Fig. 2 |
 | 2 | **Encoding** | post and gloss are embedded *separately* with `text-embedding-3-large` (3,072-d): $e=E(x)$, $\tilde{e}=E(\tilde{x})$ | §4.3, Eq. 5 |
-| 3 | **Shared UMAP** | one mapping $U$ per target, fitted on the training **posts** only, reduces both views to 20-d: $v=[U(e);\ U(\tilde{e})]\in\mathbb{R}^{40}$ | Eqs. 6-7 |
-| 4 | **Aspect discovery** | K-means on $\hat{v}=v/\lVert v\rVert_2$ for every $K\in\{2,\dots,30\}$; the partition with the highest **cosine silhouette** is kept and its centroids $\mu_{T,k}$ are frozen | §4.4, Eq. 8 |
-| 5 | **Aspect-conditioned ensemble** | KNN + XGBoost + random forest (library defaults), equal-weight **soft voting** on $z=[v;\ \mathrm{onehot}(c)]\in\mathbb{R}^{40+K_T}$ | Eqs. 9-11 |
-| 6 | **Inference** | frozen $U$, then the nearest frozen centroid $k^{*}=\arg\min_k\lVert\hat{v}-\mu_{T,k}\rVert_2$, then the ensemble; returns **(stance, aspect)** | Eqs. 12-13 |
+| 3 | **Shared UMAP** | one mapping $U$ per target, fitted on the training **posts** only, reduces both views to 20-d: $v=[U(e);\ U(\tilde{e})]\in\mathbb{R}^{40}$ | Eq. 6 |
+| 4 | **Aspect discovery** | K-means on $\hat{v}=v/\lVert v\rVert_2$ for every $K\in\{2,\dots,30\}$; the partition with the highest **cosine silhouette** is kept and its centroids $\mu_{T,k}$ are frozen | §4.4, Eqs. 7-8 |
+| 5 | **Aspect-conditioned ensemble** | KNN + XGBoost + random forest (library defaults), equal-weight **soft voting** on $z=[v;\ \mathrm{onehot}(c)]\in\mathbb{R}^{40+K_T}$ | Eqs. 9-10 |
+| 6 | **Inference** | frozen $U$, then the nearest frozen centroid $k^{*}=\arg\min_k\lVert\hat{v}-\mu_{T,k}\rVert_2$, then the ensemble; returns **(stance, aspect)** | Eqs. 11-12 |
 | - | *Naming* | GPT-6 Luna names each finished cluster. Names are for people: they never move a post, change $K_T$ or enter the classifier | §4.5 |
 
 The soft vote of Eq. (10) averages the three members' class distributions with equal weight:
@@ -282,14 +282,14 @@ Result files hold post ids, labels and clusters only, never tweet texts.
 | Enrichment prompt (Fig. 2), $\tilde{x}=g(x,T)$ (Eq. 4) | [`prompts.ENRICHMENT_PROMPT`](aspectstance/prompts.py), [`enrichment.generate_glosses`](aspectstance/enrichment.py) |
 | GPT-6 Luna calls with medium reasoning effort (§5.4) | [`llm.LLMClient`](aspectstance/llm.py) |
 | `text-embedding-3-large`, Eq. 5 | [`embeddings.OpenAIEmbedder`](aspectstance/embeddings.py) |
-| Shared UMAP, $v=[r;\tilde{r}]\in\mathbb{R}^{40}$ (Eqs. 6-7) | [`representation.SharedUMAP`](aspectstance/representation.py) |
-| $L_2$ normalisation (Eq. 8) | [`representation.l2_normalise`](aspectstance/representation.py) |
+| Shared UMAP, $v=[r;\tilde{r}]\in\mathbb{R}^{40}$ (Eq. 6) | [`representation.SharedUMAP`](aspectstance/representation.py) |
+| $L_2$ normalisation (Eq. 7) | [`representation.l2_normalise`](aspectstance/representation.py) |
 | K-means and cosine-silhouette sweep, K = 2..30 (§4.4) | [`clustering.silhouette_sweep`](aspectstance/clustering.py) |
 | Post hoc naming (§4.5, App. A.1) | [`naming.name_clusters`](aspectstance/naming.py), [`prompts.NAMING_PROMPT`](aspectstance/prompts.py) |
 | $z=[v;\mathrm{onehot}(c)]$ (Eq. 9) | [`classifier.with_cluster_feature`](aspectstance/classifier.py) |
-| KNN + XGBoost + RF soft voting (Eqs. 10-11) | [`classifier.SoftVotingEnsemble`](aspectstance/classifier.py) |
-| Routing $k^{*}(x)$ (Eq. 12) and prediction (Eq. 13) | [`clustering.NearestCentroidRouter`](aspectstance/clustering.py), [`model.AspectStanceModel`](aspectstance/model.py) |
-| $F1_{avg}$, $F\text{-}macro_T$, $F\text{-}micro_T$ (§5.2, Eq. 14) | [`metrics`](aspectstance/metrics.py) |
+| KNN + XGBoost + RF soft voting (Eq. 10) | [`classifier.SoftVotingEnsemble`](aspectstance/classifier.py) |
+| Routing $k^{*}(x)$ (Eq. 11) and prediction (Eq. 12) | [`clustering.NearestCentroidRouter`](aspectstance/clustering.py), [`model.AspectStanceModel`](aspectstance/model.py) |
+| $F1_{avg}$, $F\text{-}macro_T$, $F\text{-}micro_T$ (§5.2, Eq. 13) | [`metrics`](aspectstance/metrics.py) |
 | Base Method, random-clustering control, invariance checks (§5.3, §6.2) | [`experiment.run_target_seed`](aspectstance/experiment.py) |
 | Zero-shot and retrieval-augmented few-shot baselines (App. A.2-A.3) | [`baselines`](aspectstance/baselines.py) |
 | Ten-seed protocol (§5.4) | [`experiment.run_experiments`](aspectstance/experiment.py), [`report`](aspectstance/report.py) |

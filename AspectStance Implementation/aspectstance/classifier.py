@@ -1,4 +1,4 @@
-"""Aspect-conditioned stance model (Section 4.6, Eqs. 9-11).
+"""Aspect-conditioned stance model (Section 4.6, Eqs. 9-10).
 
 The input of training post i is  z_i = [v_i ; onehot(c_i)] in R^(40 + K_T)  (Eq. 9). The predictor
 is a soft-voting ensemble of KNN, XGBoost and a random forest, all at library defaults; the three

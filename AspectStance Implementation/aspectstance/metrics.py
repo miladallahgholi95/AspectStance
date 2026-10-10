@@ -1,6 +1,6 @@
 """Evaluation metric (Section 5.2).
 
-``F1_avg`` (Eq. 14) is the mean of the FAVOR and AGAINST F1 scores, the official SemEval-2016
+``F1_avg`` (Eq. 13) is the mean of the FAVOR and AGAINST F1 scores, the official SemEval-2016
 Task 6 metric, also used for P-Stance. NONE is excluded from the average, but NONE posts stay in
 the evaluation: predicting FAVOR or AGAINST for them lowers the precision of the predicted class.
 

@@ -1,4 +1,4 @@
-"""Contextual representation (Section 4.3, Eqs. 6-7).
+"""Contextual representation (Section 4.3, Eq. 6).
 
 A single UMAP mapping U is fitted per target on the embeddings of the *training posts only* and
 then frozen. It gives the reduced coordinates of the training posts, and projects the gloss
@@ -19,7 +19,7 @@ import numpy as np
 
 
 def l2_normalise(matrix: np.ndarray, eps: float = 1e-12) -> np.ndarray:
-    """Row-wise L2 normalisation, Eq. (8):  v^ = v / ||v||_2."""
+    """Row-wise L2 normalisation, Eq. (7):  v^ = v / ||v||_2."""
     matrix = np.asarray(matrix, dtype=np.float64)
     norms = np.linalg.norm(matrix, axis=1, keepdims=True)
     return matrix / np.maximum(norms, eps)
