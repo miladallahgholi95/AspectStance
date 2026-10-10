@@ -88,3 +88,29 @@ This log records every substantive change from the original `AspectStance_Paper/
 - The figures (`workflow.pdf`, `main_results.pdf`). They are legible vector graphics, their sources are not in the archive, and redrawing them could alter verified values.
 - The dataset and the root `README.md`. See `Remaining_Author_Actions.md`.
 - The journal class `sn-jnl.cls` and the style file `sn-mathphys-num.bst`.
+
+
+## G. Final rounds: simplification, five-reviewer review, abstract panel
+
+Numbers C-01 to C-44 above refer to the manuscript at the first editorial pass. The final manuscript also includes the following changes.
+
+| # | Location | Change |
+|---|---|---|
+| C-45 | §3 | Problem restated in a framed box with two functions: aspect assignment h_T : x ↦ c and an aspect-conditioned classifier f_T : (x, c) ↦ y. The old aspect-set notation (𝒜_T, a_{T,k}, k*) was replaced throughout |
+| C-46 | §4 | "Overview" subsection removed at the author's request; §4 opens directly with its paragraphs, and the subsections are now 4.1–4.6 |
+| C-47 | §4.2 | Embedding and reduction equations merged into one: v = [U(E(x)); U(E(x̃))]. The paper now has Eqs. (1)–(12) |
+| C-48 | §4.3 | K-means stated in words, with a corrected cosine argument (2−2cosθ holds between unit vectors); the silhouette selection rule, Eq. (7), fits on one line |
+| C-49 | §4.5–4.6 | f_T(x, c) used consistently; the asymmetry between training and test UMAP coordinates made explicit; μ_{T,k} defined |
+| C-50 | §1 | Gap and puzzle stated: prior methods combine topics with other components, and the cluster feature carries no new information yet helps. The gloss is motivated, with its lineage cited. The output is clarified as a target-level label returned with its aspect |
+| C-51 | §2 | New §2.5 "LLM-augmented clustering and cluster features". §2.6 repositioned against Allaway and McKeown, and its claimed differences limited to the defensible ones |
+| C-52 | Table 1 | Column "Uses stance labels" renamed "Stance labels in induction"; topic-guided transformer entry changed to "No" |
+| C-53 | Throughout | Terminology aligned on "cluster feature". Aspect claims qualified as "judged by their generated names". Repeated caveats and figures cut |
+| C-54 | Tables 4, 7 | Captions made self-contained: test-split selection bias (Table 4); three-target coverage with AspectStance's 85.8, and the comparability warning (Table 7) |
+| C-55 | §6.1 | Feminist Movement sentence no longer implies a cause; it adds that the Base Method trails both prompting baselines |
+| C-56 | §7.1–7.2 | Mechanism stated precisely (indicator columns, +2 squared distance, cone-shaped regions); §7.2 rewritten as "Implications for topic-aware stance detection" |
+| C-57 | §8 | Conclusion reordered to end on the takeaway; wording no longer copies the abstract |
+| C-58 | Abstract | Rewritten through a ten-reviewer panel and a final adversarial check (see Comprehensive_Peer_Review.md, Round 4): stronger motivation, precise gap, contribution stated as the answer, surprise placed with the results, prompting comparison added, hedged takeaway; 249 words |
+| C-59 | Layout | Inline definitions kept on one line; the gap at the foot of p. 7 closed; all 23 pages re-inspected |
+| C-60 | Implementation docs | Section and equation references re-synchronised again (Eqs. 1–12, §4.1–4.6) and the h_T(x) notation adopted. Comments only |
+
+**Integrity check after the final rounds.** The nine tables are numerically identical to the original. The only numbers added to the prose are taken from the tables: 80.7, 69.6 and 16.3. Duplicated mentions of 10.1, 15.7, 15.1, 11.2, 9.5 and 0.55 were removed; each still appears elsewhere.

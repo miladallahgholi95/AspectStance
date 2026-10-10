@@ -84,3 +84,19 @@ The manuscript is scientifically coherent, honestly scoped, numerically consiste
 4. **Upload the complete dataset to GitHub** (A-01, the known author-managed exception).
 
 This verdict concerns editorial readiness only. It is not a prediction of acceptance by any journal.
+
+
+---
+
+## Update after the final rounds
+
+The ten-reviewer abstract panel, the five-reviewer content review, the simplification of the formal definitions and a final page-by-page inspection were completed after the assessment above.
+
+**Writing.** The method section now defines every symbol it uses and corrects one technical misstatement about K-means. The introduction states a precise, defensible gap. The abstract leads with importance, gap and contribution.
+
+**Revised scores.**
+- Scientific reasoning and methodological clarity: 8.5 → 9.0
+- Structure and argumentation: 8.5 → 9.0
+- Weighted total: 8.6 → **8.8**
+
+**Verdict:** unchanged at **READY WITH MINOR AUTHOR ACTIONS**. The new questions in A-08 are about details only the author knows, and none of them affects the results.

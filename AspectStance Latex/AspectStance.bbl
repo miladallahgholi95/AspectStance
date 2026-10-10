@@ -206,6 +206,40 @@ pp. \bfpage{15703}--\blpage{15717}
 \endbibitem
 
 %%% 11
+\bibitem[\protect\citeauthoryear{Viswanathan
+  et~al.}{2024}]{viswanathan2024fewshot}
+\begin{barticle}
+\bauthor{\bsnm{Viswanathan}, \binits{V.}},
+\bauthor{\bsnm{Gashteovski}, \binits{K.}},
+\bauthor{\bsnm{Lawrence}, \binits{C.}},
+\bauthor{\bsnm{Wu}, \binits{T.}},
+\bauthor{\bsnm{Neubig}, \binits{G.}}:
+\batitle{Large language models enable few-shot clustering}.
+\bjtitle{Transactions of the Association for Computational Linguistics}
+\bvolume{12},
+\bfpage{321}--\blpage{333}
+(\byear{2024})
+\doiurl{10.1162/tacl_a_00648}
+\end{barticle}
+\endbibitem
+
+%%% 12
+\bibitem[\protect\citeauthoryear{De~Raedt et~al.}{2023}]{deraedt2023idas}
+\begin{bchapter}
+\bauthor{\bsnm{De~Raedt}, \binits{M.}},
+\bauthor{\bsnm{Godin}, \binits{F.}},
+\bauthor{\bsnm{Demeester}, \binits{T.}},
+\bauthor{\bsnm{Develder}, \binits{C.}}:
+\bctitle{{IDAS}: Intent discovery with abstractive summarization}.
+In: \bbtitle{Proceedings of the 5th Workshop on NLP for Conversational AI
+  (NLP4ConvAI 2023)},
+pp. \bfpage{71}--\blpage{88}
+(\byear{2023}).
+\doiurl{10.18653/v1/2023.nlp4convai-1.7}
+\end{bchapter}
+\endbibitem
+
+%%% 13
 \bibitem[\protect\citeauthoryear{Masood and Aker}{2018}]{masood2018fake}
 \begin{bchapter}
 \bauthor{\bsnm{Masood}, \binits{R.}},
@@ -221,7 +255,7 @@ pp. \bfpage{128}--\blpage{135}
 \end{bchapter}
 \endbibitem
 
-%%% 12
+%%% 14
 \bibitem[\protect\citeauthoryear{Ayyub et~al.}{2021}]{ayyub2021stance}
 \begin{barticle}
 \bauthor{\bsnm{Ayyub}, \binits{K.}},
@@ -239,7 +273,7 @@ pp. \bfpage{128}--\blpage{135}
 \end{barticle}
 \endbibitem
 
-%%% 13
+%%% 15
 \bibitem[\protect\citeauthoryear{Augenstein
   et~al.}{2016}]{augenstein2016stance}
 \begin{bchapter}
@@ -256,7 +290,7 @@ pp. \bfpage{876}--\blpage{885}
 \end{bchapter}
 \endbibitem
 
-%%% 14
+%%% 16
 \bibitem[\protect\citeauthoryear{Schiller et~al.}{2021}]{schiller2021stance}
 \begin{barticle}
 \bauthor{\bsnm{Schiller}, \binits{B.}},
@@ -271,7 +305,7 @@ pp. \bfpage{876}--\blpage{885}
 \end{barticle}
 \endbibitem
 
-%%% 15
+%%% 17
 \bibitem[\protect\citeauthoryear{Alturayeif
   et~al.}{2024}]{alturayeif2023enhancing}
 \begin{barticle}
@@ -288,7 +322,7 @@ pp. \bfpage{876}--\blpage{885}
 \end{barticle}
 \endbibitem
 
-%%% 16
+%%% 18
 \bibitem[\protect\citeauthoryear{Dong et~al.}{2024}]{dong2024implicit}
 \begin{barticle}
 \bauthor{\bsnm{Dong}, \binits{L.}},
@@ -305,7 +339,7 @@ pp. \bfpage{876}--\blpage{885}
 \end{barticle}
 \endbibitem
 
-%%% 17
+%%% 19
 \bibitem[\protect\citeauthoryear{Pu et~al.}{2025}]{pu2025integrating}
 \begin{barticle}
 \bauthor{\bsnm{Pu}, \binits{Q.}},
@@ -323,7 +357,7 @@ pp. \bfpage{876}--\blpage{885}
 \end{barticle}
 \endbibitem
 
-%%% 18
+%%% 20
 \bibitem[\protect\citeauthoryear{Cai et~al.}{2025}]{cai2025enhancing}
 \begin{barticle}
 \bauthor{\bsnm{Cai}, \binits{Y.}},
@@ -341,7 +375,7 @@ pp. \bfpage{876}--\blpage{885}
 \end{barticle}
 \endbibitem
 
-%%% 19
+%%% 21
 \bibitem[\protect\citeauthoryear{Allaway and McKeown}{2020}]{allaway2020zero}
 \begin{bchapter}
 \bauthor{\bsnm{Allaway}, \binits{E.}},
@@ -356,7 +390,7 @@ pp. \bfpage{8913}--\blpage{8931}
 \end{bchapter}
 \endbibitem
 
-%%% 20
+%%% 22
 \bibitem[\protect\citeauthoryear{Khiabani and
   Zubiaga}{2025}]{khiabani2025cross}
 \begin{barticle}
@@ -372,7 +406,7 @@ pp. \bfpage{8913}--\blpage{8931}
 \end{barticle}
 \endbibitem
 
-%%% 21
+%%% 23
 \bibitem[\protect\citeauthoryear{Gambini et~al.}{2024}]{gambini2024evaluating}
 \begin{barticle}
 \bauthor{\bsnm{Gambini}, \binits{M.}},
@@ -389,7 +423,7 @@ pp. \bfpage{8913}--\blpage{8931}
 \end{barticle}
 \endbibitem
 
-%%% 22
+%%% 24
 \bibitem[\protect\citeauthoryear{Sucu et~al.}{2025}]{sucu2025exploiting}
 \begin{bchapter}
 \bauthor{\bsnm{Sucu}, \binits{A.E.}},
@@ -406,7 +440,7 @@ pp. \bfpage{1097}--\blpage{1110}
 \end{bchapter}
 \endbibitem
 
-%%% 23
+%%% 25
 \bibitem[\protect\citeauthoryear{Ma et~al.}{2024}]{ma2024chain}
 \begin{bchapter}
 \bauthor{\bsnm{Ma}, \binits{J.}},
@@ -426,7 +460,7 @@ pp. \bfpage{82}--\blpage{94}.
 \end{bchapter}
 \endbibitem
 
-%%% 24
+%%% 26
 \bibitem[\protect\citeauthoryear{Zhang et~al.}{2025a}]{zhang2025mprf}
 \begin{bchapter}
 \bauthor{\bsnm{Zhang}, \binits{Z.}},
@@ -444,7 +478,7 @@ pp. \bfpage{454}--\blpage{470}
 \end{bchapter}
 \endbibitem
 
-%%% 25
+%%% 27
 \bibitem[\protect\citeauthoryear{Zhang et~al.}{2025b}]{zhang2025mpvstance}
 \begin{bchapter}
 \bauthor{\bsnm{Zhang}, \binits{Z.}},
@@ -462,7 +496,7 @@ pp. \bfpage{1053}--\blpage{1067}
 \end{bchapter}
 \endbibitem
 
-%%% 26
+%%% 28
 \bibitem[\protect\citeauthoryear{Lan et~al.}{2024}]{lan2024cola}
 \begin{bchapter}
 \bauthor{\bsnm{Lan}, \binits{X.}},
@@ -479,7 +513,7 @@ pp. \bfpage{891}--\blpage{903}
 \end{bchapter}
 \endbibitem
 
-%%% 27
+%%% 29
 \bibitem[\protect\citeauthoryear{Allahgholi
   et~al.}{2025}]{allahgholi2025conspro}
 \begin{barticle}
@@ -494,7 +528,7 @@ pp. \bfpage{891}--\blpage{903}
 \end{barticle}
 \endbibitem
 
-%%% 28
+%%% 30
 \bibitem[\protect\citeauthoryear{Gatto et~al.}{2023}]{gatto2023cot}
 \begin{bchapter}
 \bauthor{\bsnm{Gatto}, \binits{J.}},
@@ -509,7 +543,7 @@ pp. \bfpage{4154}--\blpage{4161}
 \end{bchapter}
 \endbibitem
 
-%%% 29
+%%% 31
 \bibitem[\protect\citeauthoryear{Zhang et~al.}{2026a}]{zhang2026msme}
 \begin{bchapter}
 \bauthor{\bsnm{Zhang}, \binits{Y.}},
@@ -527,7 +561,7 @@ pp. \bfpage{34879}--\blpage{34887}
 \end{bchapter}
 \endbibitem
 
-%%% 30
+%%% 32
 \bibitem[\protect\citeauthoryear{Zhang et~al.}{2026b}]{zhang2026induce}
 \begin{bchapter}
 \bauthor{\bsnm{Zhang}, \binits{B.}},
@@ -546,7 +580,7 @@ pp. \bfpage{34638}--\blpage{34646}
 \end{bchapter}
 \endbibitem
 
-%%% 31
+%%% 33
 \bibitem[\protect\citeauthoryear{Blei et~al.}{2003}]{blei2003latent}
 \begin{barticle}
 \bauthor{\bsnm{Blei}, \binits{D.M.}},
@@ -560,7 +594,7 @@ pp. \bfpage{34638}--\blpage{34646}
 \end{barticle}
 \endbibitem
 
-%%% 32
+%%% 34
 \bibitem[\protect\citeauthoryear{Liang et~al.}{2022}]{liang2022jointcl}
 \begin{bchapter}
 \bauthor{\bsnm{Liang}, \binits{B.}},
@@ -580,7 +614,7 @@ pp. \bfpage{81}--\blpage{91}
 \end{bchapter}
 \endbibitem
 
-%%% 33
+%%% 35
 \bibitem[\protect\citeauthoryear{Grootendorst}{2022}]{grootendorst2022bertopic}
 \begin{botherref}
 \oauthor{\bsnm{Grootendorst}, \binits{M.}}:
@@ -591,7 +625,7 @@ arXiv preprint
 \end{botherref}
 \endbibitem
 
-%%% 34
+%%% 36
 \bibitem[\protect\citeauthoryear{Arakelyan et~al.}{2023}]{arakelyan2023topic}
 \begin{bchapter}
 \bauthor{\bsnm{Arakelyan}, \binits{E.}},
@@ -609,7 +643,7 @@ pp. \bfpage{13448}--\blpage{13464}.
 \end{bchapter}
 \endbibitem
 
-%%% 35
+%%% 37
 \bibitem[\protect\citeauthoryear{Yu et~al.}{2026}]{yu2026dimabsa}
 \begin{bchapter}
 \bauthor{\bsnm{Yu}, \binits{L.-C.}},
@@ -638,40 +672,6 @@ pp. \bfpage{3753}--\blpage{3778}.
 \blocation{San Diego, California, USA}
 (\byear{2026}).
 \doiurl{10.18653/v1/2026.semeval-1.452}
-\end{bchapter}
-\endbibitem
-
-%%% 36
-\bibitem[\protect\citeauthoryear{Viswanathan
-  et~al.}{2024}]{viswanathan2024fewshot}
-\begin{barticle}
-\bauthor{\bsnm{Viswanathan}, \binits{V.}},
-\bauthor{\bsnm{Gashteovski}, \binits{K.}},
-\bauthor{\bsnm{Lawrence}, \binits{C.}},
-\bauthor{\bsnm{Wu}, \binits{T.}},
-\bauthor{\bsnm{Neubig}, \binits{G.}}:
-\batitle{Large language models enable few-shot clustering}.
-\bjtitle{Transactions of the Association for Computational Linguistics}
-\bvolume{12},
-\bfpage{321}--\blpage{333}
-(\byear{2024})
-\doiurl{10.1162/tacl_a_00648}
-\end{barticle}
-\endbibitem
-
-%%% 37
-\bibitem[\protect\citeauthoryear{De~Raedt et~al.}{2023}]{deraedt2023idas}
-\begin{bchapter}
-\bauthor{\bsnm{De~Raedt}, \binits{M.}},
-\bauthor{\bsnm{Godin}, \binits{F.}},
-\bauthor{\bsnm{Demeester}, \binits{T.}},
-\bauthor{\bsnm{Develder}, \binits{C.}}:
-\bctitle{{IDAS}: Intent discovery with abstractive summarization}.
-In: \bbtitle{Proceedings of the 5th Workshop on NLP for Conversational AI
-  (NLP4ConvAI 2023)},
-pp. \bfpage{71}--\blpage{88}
-(\byear{2023}).
-\doiurl{10.18653/v1/2023.nlp4convai-1.7}
 \end{bchapter}
 \endbibitem
 

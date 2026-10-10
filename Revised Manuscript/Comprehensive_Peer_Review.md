@@ -4,6 +4,8 @@
 **Input.** `AspectStance_Paper.zip` (one `.tex`, `.bib`, `.bbl`, class and style files, two vector figures, shipped PDF of 22 pages).
 **Output.** `Manuscript_Final_Revised.zip` / `.pdf` (23 pages).
 
+> **Note on numbering.** Sections up to "Second-round review" describe the first editorial pass and use the section and equation numbers of the manuscript at that stage. Later rounds removed the §4 Overview subsection and merged two equations, so the final paper has subsections 4.1–4.6 and Eqs. (1)–(12). The final rounds are described at the end of this file.
+
 ## How this review was conducted
 
 This is not a human review panel. The seven reviewer roles, the Editor-in-Chief and the QA auditor are separately scoped review passes carried out by one AI assistant (Claude). Bibliographic checks were delegated to a separate search agent. The ground rules were:
@@ -388,3 +390,39 @@ Each role re-read the final source and the rendered PDF, which was re-inspected 
 - **R5.** The UNVERIFIED items are carried to the author actions.
 - **R6.** All 23 pages are clean: zero overfull boxes, consistent caption leading, columns balanced on body pages.
 - **R7.** A clean build from the packaged ZIP reproduces the inspected PDF (identical extracted text).
+
+
+---
+
+## Round 3: independent five-reviewer content review
+
+Five reviewers ran as separate agents, each with its own remit, on a frozen snapshot of the paper. Their reports were reconciled and 78 edits were applied.
+
+| Reviewer | Remit | Key findings that were applied |
+|---|---|---|
+| A: methodology | §3–5, §7.1 | Fixed a technical misstatement: the identity 2−2cosθ holds only between unit vectors, not between a vector and its cluster mean. Gave f_T one signature, f_T(x, c), throughout. Restricted 𝒟_T and N_T to the training split. Made the UMAP asymmetry explicit: training posts keep their fitted coordinates, while new posts are projected out of sample. Defined μ_{T,k}. Stated the mechanism in §7.1 precisely (indicator columns, exactly +2 in squared distance, cone-shaped cluster regions). |
+| B: results and claims | Abstract, §1, §6–8 | No numerical inconsistency found. Made the introduction mention that the random control is the best of 160 configurations selected on the test split. Aligned terminology on "cluster feature". Made the Table 4 and Table 7 captions self-contained. Qualified aspect claims as based on the generated names. Corrected the Feminist Movement sentence, which implied a cause. Stated that the Base Method trails both prompting baselines. |
+| C: novelty and positioning | §1, §2, Table 1, §7.2 | Stated the gap and the puzzle in the introduction (the cluster feature carries no new information, yet it helps). Added Allaway and McKeown to the positioning. Added §2.5 on LLM-augmented clustering. Relabelled the Table 1 column as "Stance labels in induction". Rewrote §7.2 as implications for the field, with a concrete Trump economy-versus-character example. |
+| D: native English style | Whole paper | Broke up chains of ", so" clauses and tacked-on endings. Fixed a dangling participle, unclear antecedents and doubled "with … with" constructions. Separated the conclusion's wording from the abstract's. |
+| E: area chair | Narrative and length | Cut repeated caveats ("best of 160", "no new information", "gain versus spread"). Reordered the conclusion so it ends on the takeaway. Gave §7.2 and §6.5 informative titles. Tightened the Fig. 1 caption. |
+
+Suggestions **not** applied: two that rested only on the reimplementation in `AspectStance Implementation/`, which is not evidence of the original experiments. These were whether the naming prompt received all posts of a cluster, and how random cluster labels were drawn. Both are listed in `Remaining_Author_Actions.md` (A-08).
+
+## Round 4: ten-reviewer abstract panel
+
+- **Drafting round.** Five drafters each wrote an independent abstract: an NLP professor, a computational social scientist, an ML methodologist, a journal editor and a prose stylist.
+- **Judging round.** Five judges scored, criticised and merged the drafts: a fact-checker, an area chair, a native copy editor, an empirical reviewer and an editor-in-chief.
+- **Opening check.** The author asked for a stronger opening, so a further adversarial check followed: a sceptical area chair, a stance-detection expert and a native editor.
+
+Final decisions, based on the panel's consensus:
+
+1. **Opening.** The first sentence states importance and contains the indexing terms ("stance detection", "social media"). It is scoped to "the standard formulation", because datasets such as VAST already go beyond one label per target.
+2. **Example.** A concrete example follows: economic-policy criticism and character attacks both become AGAINST.
+3. **Gap.** The gap names what prior topic-aware methods actually do with topics: retrieval keys (KASD), graph nodes (CoSD), and features alongside sentiment (the topic-guided transformer). The topic-guided transformer does feed topics to its classifier, so the claim is limited to what "an explicit aspect partition alone contributes".
+4. **Contribution.** The contribution sentence answers the gap and names the novel element: clustering each post with a target-conditioned gloss.
+5. **The surprise.** It is stated together with the results: the feature is "derived from the classifier's own inputs", yet adds 10.1 and 15.7 points.
+6. **Random-clustering control.** It is stated without ambiguity: "even with the best of 160 configurations chosen on the test split".
+7. **Prompting baselines.** One sentence notes that AspectStance also beats zero-shot and few-shot prompting of GPT-6 Luna. This answers the weak-baseline objection.
+8. **Takeaway.** Hedged and scoped: "the results indicate … gives this classifier a useful inductive bias".
+
+Final length: 249 words by the strict count, which splits "Task~6" into two words and counts the URL as one.

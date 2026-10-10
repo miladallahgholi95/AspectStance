@@ -51,6 +51,17 @@ The released files in `Clustering Results (Aspects)/` contain the full **tweet t
 - **`pu2025integrating`.** The fourth author appears as "Jieyao Wei" in one source and "Jie Wei" in another. Check the MDPI page.
 - **`gera2025deep`.** Published online in 2025 as Article 26 of vol. 58(1); the issue may be dated 2026. Consider adding `articleno = 26`.
 
+
+### A-08 · Questions raised by the final review rounds
+
+Only the author can answer these. None of them affects the reported numbers.
+
+- **Naming prompt.** Did the cluster-naming prompt receive *all* training posts of each cluster, or a sample? If a sample, state its size in §4.4. The reimplementation sends all posts, but it was written from the paper and is not evidence.
+- **Random control.** In the random-clustering control, were labels drawn independently and uniformly per post, or as a balanced partition? §5.3 now says only "uniformly random assignment".
+- **Silhouette values.** Are the silhouette values in Tables 5–6 from the same run as the names and cluster sizes shown there? §6.3 states this only for names and sizes.
+- **Invariance checks.** For the invariance checks (§6.2), is there a numerical tolerance behind "essentially unchanged"? If so, it could be stated.
+- **Library versions.** State the exact library versions used (scikit-learn, XGBoost, umap-learn), in the paper or the repository. Some defaults, such as K-means `n_init`, changed between scikit-learn releases.
+
 ## At submission
 
 ### A-06 · Journal-specific settings

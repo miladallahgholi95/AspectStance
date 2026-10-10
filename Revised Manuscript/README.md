@@ -4,6 +4,7 @@ This folder holds the editorial review and the revised version of `AspectStance_
 
 | File | Contents |
 |---|---|
+| `../AspectStance_Final.zip` | **Final deliverable:** the final LaTeX source and the compiled PDF side by side |
 | `Manuscript_Final_Revised.zip` | Revised LaTeX project: source, bibliography, `.bbl`, class and style files, figures, compiled PDF |
 | `Manuscript_Final_Revised.pdf` | Compiled PDF (23 pages) built from that source |
 | `Comprehensive_Peer_Review.md` | Seven reviewer reports, cross-review, Editor-in-Chief decisions, second-round review |
