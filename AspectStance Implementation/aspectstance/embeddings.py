@@ -1,4 +1,4 @@
-"""Text encoders E(.) for the post and gloss views (Section 4.3, Eq. 5).
+"""Text encoders E(.) for the post and gloss views (Section 4.2, Eq. 5).
 
 Backends
 --------

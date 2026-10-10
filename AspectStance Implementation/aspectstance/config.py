@@ -65,7 +65,7 @@ class UMAPConfig:
 
 @dataclass
 class ClusteringConfig:
-    """Silhouette sweep over the candidate inventory sizes K = 2..30 (Section 4.4)."""
+    """Silhouette sweep over the candidate inventory sizes K = 2..30 (Section 4.3)."""
 
     k_min: int = 2
     k_max: int = 30

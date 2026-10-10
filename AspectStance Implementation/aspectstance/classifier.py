@@ -1,8 +1,8 @@
-"""Aspect-conditioned stance model (Section 4.6, Eqs. 9-10).
+"""Aspect-conditioned stance model (Section 4.5, Eqs. 8-9).
 
-The input of training post i is  z_i = [v_i ; onehot(c_i)] in R^(40 + K_T)  (Eq. 9). The predictor
+The input of training post i is  z_i = [v_i ; onehot(c_i)] in R^(40 + K_T)  (Eq. 8). The predictor
 is a soft-voting ensemble of KNN, XGBoost and a random forest, all at library defaults; the three
-class-probability distributions are averaged with equal weight and the argmax is returned (Eq. 10).
+class-probability distributions are averaged with equal weight and the argmax is returned (Eq. 9).
 The Base Method uses the same ensemble on v alone.
 """
 
@@ -29,7 +29,7 @@ def with_cluster_feature(
     k: int,
     column_order: Optional[Sequence[int]] = None,
 ) -> np.ndarray:
-    """Eq. (9): concatenate the unnormalised representation with the one-hot cluster block.
+    """Eq. (8): concatenate the unnormalised representation with the one-hot cluster block.
 
     ``column_order`` permutes the one-hot columns (used by the invariance check only).
     """
@@ -58,7 +58,7 @@ def default_members(random_state: Optional[int] = None) -> List[Tuple[str, objec
 
 
 class SoftVotingEnsemble:
-    """Equal-weight soft voting over KNN, XGBoost and a random forest (Eq. 10)."""
+    """Equal-weight soft voting over KNN, XGBoost and a random forest (Eq. 9)."""
 
     def __init__(self, random_state: Optional[int] = None):
         self.random_state = random_state

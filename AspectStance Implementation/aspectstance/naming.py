@@ -1,4 +1,4 @@
-"""Post hoc cluster naming (Section 4.5).
+"""Post hoc cluster naming (Section 4.4).
 
 Once a partition is fixed, the posts of every cluster are submitted to GPT-6 Luna with the naming
 prompt of Appendix A.1. Naming only annotates the partition: it changes neither K_T nor cluster

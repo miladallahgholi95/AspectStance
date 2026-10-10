@@ -120,7 +120,7 @@ def run_target_seed(
     c_train = model.train_clusters_
     prediction = model.predict_representation(v_test)
     c_test = prediction.clusters
-    # Eq. (11) reproduces the training assignments once K-means has converged.
+    # Eq. (10) reproduces the training assignments once K-means has converged.
     routing_agreement = float(np.mean(model.router_.route(vhat_train) == c_train))
 
     metrics = [

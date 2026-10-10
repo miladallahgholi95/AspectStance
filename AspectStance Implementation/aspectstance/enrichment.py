@@ -1,4 +1,4 @@
-"""Target-conditioned text enrichment (Section 4.2, Eq. 4):  x~ = g(x, T).
+"""Target-conditioned text enrichment (Section 4.1, Eq. 4):  x~ = g(x, T).
 
 Backends
 --------

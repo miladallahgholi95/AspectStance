@@ -7,8 +7,8 @@ Training (one target, its training split only)::
 
 Inference (frozen U, frozen centroids, trained ensemble)::
 
-    e, e~  --U-->  v  --L2-->  v^  --nearest centroid (Eq. 11)-->  k*
-    y^ = ensemble( [v ; onehot(k*)] )            (Eq. 12)
+    e, e~  --U-->  v  --L2-->  v^  --nearest centroid (Eq. 10)-->  k*
+    y^ = ensemble( [v ; onehot(k*)] )            (Eq. 11)
 
 Each prediction is returned with the index of the aspect cluster that conditioned it.
 """
@@ -121,13 +121,13 @@ class AspectStanceModel:
         return self.representation_.transform(post_embeddings, gloss_embeddings)
 
     def route(self, v: np.ndarray) -> np.ndarray:
-        """Eq. (11): nearest frozen centroid of the L2-normalised representation."""
+        """Eq. (10): nearest frozen centroid of the L2-normalised representation."""
         if self.router_ is None:
             raise RuntimeError("The Base Method has no aspect inventory")
         return self.router_.route(l2_normalise(v))
 
     def predict_representation(self, v: np.ndarray) -> Prediction:
-        """Predict from an already computed representation v (Eq. 12)."""
+        """Predict from an already computed representation v (Eq. 11)."""
         clusters = self.route(v) if self.use_cluster_feature else np.full(len(v), -1)
         features = (
             with_cluster_feature(v, clusters, self.n_aspects) if self.use_cluster_feature else v

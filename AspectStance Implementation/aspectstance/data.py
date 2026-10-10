@@ -31,7 +31,7 @@ import pandas as pd
 
 CANONICAL_COLUMNS = ["id", "dataset", "target", "split", "text", "label"]
 LABELS = ("FAVOR", "AGAINST", "NONE")
-#: The two classes averaged by the official metric F1_avg (Eq. 13).
+#: The two classes averaged by the official metric F1_avg (Eq. 12).
 SCORED_LABELS = ("FAVOR", "AGAINST")
 
 PSTANCE_TARGETS: Dict[str, str] = {

@@ -4,7 +4,7 @@
   equals 2 - 2 cos(theta), so nearest-centroid assignment approximates spherical K-means.
 * Every K in {2, ..., 30} is evaluated and the partition with the highest *cosine* silhouette
   coefficient is retained; its centroids are frozen.
-* A held-out post is routed to the nearest frozen centroid, Eq. (11):
+* A held-out post is routed to the nearest frozen centroid, Eq. (10):
   k*(x) = argmin_k || v^ - mu_k ||_2.
 """
 
@@ -74,7 +74,7 @@ def silhouette_sweep(
 
 
 class NearestCentroidRouter:
-    """Frozen centroids and the routing rule of Eq. (11).
+    """Frozen centroids and the routing rule of Eq. (10).
 
     Centroids of empty clusters (possible only for random partitions) may be ``NaN``; they are
     never selected.

@@ -233,7 +233,7 @@ def to_markdown(summary: Dict[str, Any], title: str = "AspectStance results") ->
             "",
             "## Sanity checks",
             "",
-            f"- Routing the training posts with Eq. (11) reproduces their K-means assignments in "
+            f"- Routing the training posts with Eq. (10) reproduces their K-means assignments in "
             f"{100 * summary['min_train_routing_agreement']:.2f}% of cases (minimum over runs).",
             f"- Summed run time of all (target, seed) jobs: {summary['total_compute_seconds'] / 60:.1f} minutes.",
         ]
