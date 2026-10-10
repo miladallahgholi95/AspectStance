@@ -1,0 +1,1053 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{62}
+% BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\url{https://doi.org/#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\bibcommenthead
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem[\protect\citeauthoryear{Alturayeif
+  et~al.}{2023}]{alturayeif2023systematic}
+\begin{barticle}
+\bauthor{\bsnm{Alturayeif}, \binits{N.}},
+\bauthor{\bsnm{Luqman}, \binits{H.}},
+\bauthor{\bsnm{Ahmed}, \binits{M.}}:
+\batitle{A systematic review of machine learning techniques for stance
+  detection and its applications}.
+\bjtitle{Neural Computing and Applications}
+\bvolume{35}(\bissue{7}),
+\bfpage{5113}--\blpage{5144}
+(\byear{2023})
+\doiurl{10.1007/s00521-023-08285-7}
+\end{barticle}
+\endbibitem
+
+%%% 2
+\bibitem[\protect\citeauthoryear{K{\"u}{\c{c}}{\"u}k and
+  Can}{2020}]{kucuk2020stance}
+\begin{barticle}
+\bauthor{\bsnm{K{\"u}{\c{c}}{\"u}k}, \binits{D.}},
+\bauthor{\bsnm{Can}, \binits{F.}}:
+\batitle{Stance detection: A survey}.
+\bjtitle{ACM Computing Surveys}
+\bvolume{53}(\bissue{1}),
+\bfpage{1}--\blpage{37}
+(\byear{2020})
+\doiurl{10.1145/3369026}
+\end{barticle}
+\endbibitem
+
+%%% 3
+\bibitem[\protect\citeauthoryear{Burnham}{2025}]{burnham2025stance}
+\begin{barticle}
+\bauthor{\bsnm{Burnham}, \binits{M.}}:
+\batitle{Stance detection: a practical guide to classifying political beliefs
+  in text}.
+\bjtitle{Political Science Research and Methods}
+\bvolume{13}(\bissue{3}),
+\bfpage{611}--\blpage{628}
+(\byear{2025})
+\doiurl{10.1017/psrm.2024.35}
+\end{barticle}
+\endbibitem
+
+%%% 4
+\bibitem[\protect\citeauthoryear{Cao et~al.}{2022}]{cao2022stance}
+\begin{barticle}
+\bauthor{\bsnm{Cao}, \binits{R.}},
+\bauthor{\bsnm{Luo}, \binits{X.}},
+\bauthor{\bsnm{Xi}, \binits{Y.}},
+\bauthor{\bsnm{Qiao}, \binits{Y.}}:
+\batitle{Stance detection for online public opinion awareness: An overview}.
+\bjtitle{International Journal of Intelligent Systems}
+\bvolume{37}(\bissue{12}),
+\bfpage{11944}--\blpage{11965}
+(\byear{2022})
+\doiurl{10.1002/int.23071}
+\end{barticle}
+\endbibitem
+
+%%% 5
+\bibitem[\protect\citeauthoryear{AlDayel and Magdy}{2021}]{aldayel2021stance}
+\begin{barticle}
+\bauthor{\bsnm{AlDayel}, \binits{A.}},
+\bauthor{\bsnm{Magdy}, \binits{W.}}:
+\batitle{Stance detection on social media: State of the art and trends}.
+\bjtitle{Information Processing \& Management}
+\bvolume{58}(\bissue{4}),
+\bfpage{102597}
+(\byear{2021})
+\doiurl{10.1016/j.ipm.2021.102597}
+\end{barticle}
+\endbibitem
+
+%%% 6
+\bibitem[\protect\citeauthoryear{Gera and Neal}{2025}]{gera2025deep}
+\begin{barticle}
+\bauthor{\bsnm{Gera}, \binits{P.}},
+\bauthor{\bsnm{Neal}, \binits{T.}}:
+\batitle{Deep learning in stance detection: A survey}.
+\bjtitle{ACM Computing Surveys}
+\bvolume{58}(\bissue{1}),
+\bfpage{1}--\blpage{37}
+(\byear{2025})
+\doiurl{10.1145/3744641}
+\end{barticle}
+\endbibitem
+
+%%% 7
+\bibitem[\protect\citeauthoryear{G{\'o}mez-Suta et~al.}{2023}]{gomez2023stance}
+\begin{barticle}
+\bauthor{\bsnm{G{\'o}mez-Suta}, \binits{M.}},
+\bauthor{\bsnm{Echeverry-Correa}, \binits{J.}},
+\bauthor{\bsnm{Soto-Mej{\'\i}a}, \binits{J.A.}}:
+\batitle{Stance detection in tweets: A topic modeling approach supporting
+  explainability}.
+\bjtitle{Expert Systems with Applications}
+\bvolume{214},
+\bfpage{119046}
+(\byear{2023})
+\doiurl{10.1016/j.eswa.2022.119046}
+\end{barticle}
+\endbibitem
+
+%%% 8
+\bibitem[\protect\citeauthoryear{Li et~al.}{2023}]{li2023stance}
+\begin{bchapter}
+\bauthor{\bsnm{Li}, \binits{A.}},
+\bauthor{\bsnm{Liang}, \binits{B.}},
+\bauthor{\bsnm{Zhao}, \binits{J.}},
+\bauthor{\bsnm{Zhang}, \binits{B.}},
+\bauthor{\bsnm{Yang}, \binits{M.}},
+\bauthor{\bsnm{Xu}, \binits{R.}}:
+\bctitle{Stance detection on social media with background knowledge}.
+In: \bbtitle{Proceedings of the 2023 Conference on Empirical Methods in Natural
+  Language Processing},
+pp. \bfpage{15703}--\blpage{15717}
+(\byear{2023}).
+\doiurl{10.18653/v1/2023.emnlp-main.972}
+\end{bchapter}
+\endbibitem
+
+%%% 9
+\bibitem[\protect\citeauthoryear{Cheng et~al.}{2025}]{cheng2024cosd}
+\begin{barticle}
+\bauthor{\bsnm{Cheng}, \binits{Y.}},
+\bauthor{\bsnm{Zhang}, \binits{Q.}},
+\bauthor{\bsnm{Shi}, \binits{C.}},
+\bauthor{\bsnm{Xiao}, \binits{L.}},
+\bauthor{\bsnm{Hao}, \binits{S.}},
+\bauthor{\bsnm{Hu}, \binits{L.}}:
+\batitle{{CoSD}: Collaborative stance detection with contrastive heterogeneous
+  topic graph learning}.
+\bjtitle{Knowledge-Based Systems}
+\bvolume{317},
+\bfpage{113399}
+(\byear{2025})
+\doiurl{10.1016/j.knosys.2025.113399}
+\end{barticle}
+\endbibitem
+
+%%% 10
+\bibitem[\protect\citeauthoryear{Muthusami
+  et~al.}{2025}]{muthusami2025interpretable}
+\begin{barticle}
+\bauthor{\bsnm{Muthusami}, \binits{R.}},
+\bauthor{\bsnm{Saritha}, \binits{K.}},
+\bauthor{\bsnm{Rao}, \binits{K.S.}},
+\bauthor{\bsnm{Sugapriya}, \binits{P.}},
+\bauthor{\bsnm{Saveetha}, \binits{G.}}:
+\batitle{Interpretable stance detection in social media via topic-guided
+  transformers}.
+\bjtitle{Discover Artificial Intelligence}
+\bvolume{5}(\bissue{1}),
+\bfpage{355}
+(\byear{2025})
+\doiurl{10.1007/s44163-025-00635-9}
+\end{barticle}
+\endbibitem
+
+%%% 11
+\bibitem[\protect\citeauthoryear{Masood and Aker}{2018}]{masood2018fake}
+\begin{bchapter}
+\bauthor{\bsnm{Masood}, \binits{R.}},
+\bauthor{\bsnm{Aker}, \binits{A.}}:
+\bctitle{The {Fake News Challenge}: Stance detection using traditional machine
+  learning approaches}.
+In: \bbtitle{Proceedings of the 10th International Joint Conference on
+  Knowledge Discovery, Knowledge Engineering and Knowledge Management (IC3K
+  2018), Volume 3: KMIS},
+pp. \bfpage{128}--\blpage{135}
+(\byear{2018}).
+\doiurl{10.5220/0006898801280135}
+\end{bchapter}
+\endbibitem
+
+%%% 12
+\bibitem[\protect\citeauthoryear{Ayyub et~al.}{2021}]{ayyub2021stance}
+\begin{barticle}
+\bauthor{\bsnm{Ayyub}, \binits{K.}},
+\bauthor{\bsnm{Iqbal}, \binits{S.}},
+\bauthor{\bsnm{Nisar}, \binits{M.W.}},
+\bauthor{\bsnm{Ahmad}, \binits{S.G.}},
+\bauthor{\bsnm{Munir}, \binits{E.U.}}:
+\batitle{Stance detection using diverse feature sets based on machine learning
+  techniques}.
+\bjtitle{Journal of Intelligent \& Fuzzy Systems}
+\bvolume{40}(\bissue{5}),
+\bfpage{9721}--\blpage{9740}
+(\byear{2021})
+\doiurl{10.3233/JIFS-202269}
+\end{barticle}
+\endbibitem
+
+%%% 13
+\bibitem[\protect\citeauthoryear{Augenstein
+  et~al.}{2016}]{augenstein2016stance}
+\begin{bchapter}
+\bauthor{\bsnm{Augenstein}, \binits{I.}},
+\bauthor{\bsnm{Rockt{\"a}schel}, \binits{T.}},
+\bauthor{\bsnm{Vlachos}, \binits{A.}},
+\bauthor{\bsnm{Bontcheva}, \binits{K.}}:
+\bctitle{Stance detection with bidirectional conditional encoding}.
+In: \bbtitle{Proceedings of the 2016 Conference on Empirical Methods in Natural
+  Language Processing (EMNLP)},
+pp. \bfpage{876}--\blpage{885}
+(\byear{2016}).
+\doiurl{10.18653/v1/D16-1084}
+\end{bchapter}
+\endbibitem
+
+%%% 14
+\bibitem[\protect\citeauthoryear{Schiller et~al.}{2021}]{schiller2021stance}
+\begin{barticle}
+\bauthor{\bsnm{Schiller}, \binits{B.}},
+\bauthor{\bsnm{Daxenberger}, \binits{J.}},
+\bauthor{\bsnm{Gurevych}, \binits{I.}}:
+\batitle{Stance detection benchmark: How robust is your stance detection?}
+\bjtitle{KI-K{\"u}nstliche Intelligenz}
+\bvolume{35}(\bissue{3--4}),
+\bfpage{329}--\blpage{341}
+(\byear{2021})
+\doiurl{10.1007/s13218-021-00714-w}
+\end{barticle}
+\endbibitem
+
+%%% 15
+\bibitem[\protect\citeauthoryear{Alturayeif
+  et~al.}{2024}]{alturayeif2023enhancing}
+\begin{barticle}
+\bauthor{\bsnm{Alturayeif}, \binits{N.}},
+\bauthor{\bsnm{Luqman}, \binits{H.}},
+\bauthor{\bsnm{Ahmed}, \binits{M.}}:
+\batitle{Enhancing stance detection through sequential weighted multi-task
+  learning}.
+\bjtitle{Social Network Analysis and Mining}
+\bvolume{14}(\bissue{1}),
+\bfpage{7}
+(\byear{2024})
+\doiurl{10.1007/s13278-023-01169-7}
+\end{barticle}
+\endbibitem
+
+%%% 16
+\bibitem[\protect\citeauthoryear{Dong et~al.}{2024}]{dong2024implicit}
+\begin{barticle}
+\bauthor{\bsnm{Dong}, \binits{L.}},
+\bauthor{\bsnm{Su}, \binits{Z.}},
+\bauthor{\bsnm{Fu}, \binits{X.}},
+\bauthor{\bsnm{Zhang}, \binits{B.}},
+\bauthor{\bsnm{Dai}, \binits{G.}}:
+\batitle{Implicit stance detection with hashtag semantic enrichment}.
+\bjtitle{Mathematics}
+\bvolume{12}(\bissue{11}),
+\bfpage{1663}
+(\byear{2024})
+\doiurl{10.3390/math12111663}
+\end{barticle}
+\endbibitem
+
+%%% 17
+\bibitem[\protect\citeauthoryear{Pu et~al.}{2025}]{pu2025integrating}
+\begin{barticle}
+\bauthor{\bsnm{Pu}, \binits{Q.}},
+\bauthor{\bsnm{Huang}, \binits{F.}},
+\bauthor{\bsnm{Li}, \binits{F.}},
+\bauthor{\bsnm{Wei}, \binits{J.}},
+\bauthor{\bsnm{Jiang}, \binits{S.}}:
+\batitle{Integrating emotional features for stance detection aimed at social
+  network security: A multi-task learning approach}.
+\bjtitle{Electronics}
+\bvolume{14}(\bissue{1}),
+\bfpage{186}
+(\byear{2025})
+\doiurl{10.3390/electronics14010186}
+\end{barticle}
+\endbibitem
+
+%%% 18
+\bibitem[\protect\citeauthoryear{Cai et~al.}{2025}]{cai2025enhancing}
+\begin{barticle}
+\bauthor{\bsnm{Cai}, \binits{Y.}},
+\bauthor{\bsnm{Ma}, \binits{X.}},
+\bauthor{\bsnm{Liu}, \binits{B.}},
+\bauthor{\bsnm{Chen}, \binits{X.}},
+\bauthor{\bsnm{Hu}, \binits{H.}}:
+\batitle{Enhancing stance detection with target-stance graph and logical
+  reasoning}.
+\bjtitle{Applied Sciences}
+\bvolume{15}(\bissue{21}),
+\bfpage{11784}
+(\byear{2025})
+\doiurl{10.3390/app152111784}
+\end{barticle}
+\endbibitem
+
+%%% 19
+\bibitem[\protect\citeauthoryear{Allaway and McKeown}{2020}]{allaway2020zero}
+\begin{bchapter}
+\bauthor{\bsnm{Allaway}, \binits{E.}},
+\bauthor{\bsnm{McKeown}, \binits{K.}}:
+\bctitle{Zero-shot stance detection: A dataset and model using generalized
+  topic representations}.
+In: \bbtitle{Proceedings of the 2020 Conference on Empirical Methods in Natural
+  Language Processing (EMNLP)},
+pp. \bfpage{8913}--\blpage{8931}
+(\byear{2020}).
+\doiurl{10.18653/v1/2020.emnlp-main.717}
+\end{bchapter}
+\endbibitem
+
+%%% 20
+\bibitem[\protect\citeauthoryear{Khiabani and
+  Zubiaga}{2025}]{khiabani2025cross}
+\begin{barticle}
+\bauthor{\bsnm{Khiabani}, \binits{P.J.}},
+\bauthor{\bsnm{Zubiaga}, \binits{A.}}:
+\batitle{Cross-target stance detection: A survey of techniques, datasets, and
+  challenges}.
+\bjtitle{Expert Systems with Applications}
+\bvolume{283},
+\bfpage{127790}
+(\byear{2025})
+\doiurl{10.1016/j.eswa.2025.127790}
+\end{barticle}
+\endbibitem
+
+%%% 21
+\bibitem[\protect\citeauthoryear{Gambini et~al.}{2024}]{gambini2024evaluating}
+\begin{barticle}
+\bauthor{\bsnm{Gambini}, \binits{M.}},
+\bauthor{\bsnm{Senette}, \binits{C.}},
+\bauthor{\bsnm{Fagni}, \binits{T.}},
+\bauthor{\bsnm{Tesconi}, \binits{M.}}:
+\batitle{Evaluating large language models for user stance detection on {X
+  (Twitter)}}.
+\bjtitle{Machine Learning}
+\bvolume{113}(\bissue{10}),
+\bfpage{7243}--\blpage{7266}
+(\byear{2024})
+\doiurl{10.1007/s10994-024-06587-y}
+\end{barticle}
+\endbibitem
+
+%%% 22
+\bibitem[\protect\citeauthoryear{Sucu et~al.}{2025}]{sucu2025exploiting}
+\begin{bchapter}
+\bauthor{\bsnm{Sucu}, \binits{A.E.}},
+\bauthor{\bsnm{Zhou}, \binits{Y.}},
+\bauthor{\bsnm{Nascimento}, \binits{M.A.}},
+\bauthor{\bsnm{Mullen}, \binits{T.}}:
+\bctitle{Exploiting contextual information to improve stance detection in
+  informal political discourse with {LLMs}}.
+In: \bbtitle{Proceedings of the 63rd Annual Meeting of the Association for
+  Computational Linguistics (Volume 4: Student Research Workshop)},
+pp. \bfpage{1097}--\blpage{1110}
+(\byear{2025}).
+\doiurl{10.18653/v1/2025.acl-srw.86}
+\end{bchapter}
+\endbibitem
+
+%%% 23
+\bibitem[\protect\citeauthoryear{Ma et~al.}{2024}]{ma2024chain}
+\begin{bchapter}
+\bauthor{\bsnm{Ma}, \binits{J.}},
+\bauthor{\bsnm{Wang}, \binits{C.}},
+\bauthor{\bsnm{Xing}, \binits{H.}},
+\bauthor{\bsnm{Zhao}, \binits{D.}},
+\bauthor{\bsnm{Zhang}, \binits{Y.}}:
+\bctitle{Chain of stance: Stance detection with large language models}.
+In: \bbtitle{Natural Language Processing and Chinese Computing (NLPCC 2024)}.
+\bsertitle{Lecture Notes in Computer Science},
+vol. \bseriesno{15363},
+pp. \bfpage{82}--\blpage{94}.
+\bpublisher{Springer},
+\blocation{Singapore}
+(\byear{2024}).
+\doiurl{10.1007/978-981-97-9443-0_7}
+\end{bchapter}
+\endbibitem
+
+%%% 24
+\bibitem[\protect\citeauthoryear{Zhang et~al.}{2025a}]{zhang2025mprf}
+\begin{bchapter}
+\bauthor{\bsnm{Zhang}, \binits{Z.}},
+\bauthor{\bsnm{Zhang}, \binits{J.}},
+\bauthor{\bsnm{Xu}, \binits{H.}},
+\bauthor{\bsnm{Guo}, \binits{J.}},
+\bauthor{\bsnm{Cheng}, \binits{X.}}:
+\bctitle{{MPRF}: Interpretable stance detection through multi-path reasoning
+  framework}.
+In: \bbtitle{Proceedings of the 2025 Conference on Empirical Methods in Natural
+  Language Processing},
+pp. \bfpage{454}--\blpage{470}
+(\byear{2025}).
+\doiurl{10.18653/v1/2025.emnlp-main.24}
+\end{bchapter}
+\endbibitem
+
+%%% 25
+\bibitem[\protect\citeauthoryear{Zhang et~al.}{2025b}]{zhang2025mpvstance}
+\begin{bchapter}
+\bauthor{\bsnm{Zhang}, \binits{Z.}},
+\bauthor{\bsnm{Zhang}, \binits{Z.}},
+\bauthor{\bsnm{Zhang}, \binits{J.}},
+\bauthor{\bsnm{Xu}, \binits{H.}},
+\bauthor{\bsnm{Cheng}, \binits{X.}}:
+\bctitle{{MPVStance}: Mitigating hallucinations in stance detection with
+  multi-perspective verification}.
+In: \bbtitle{Proceedings of the 63rd Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)},
+pp. \bfpage{1053}--\blpage{1067}
+(\byear{2025}).
+\doiurl{10.18653/v1/2025.acl-long.53}
+\end{bchapter}
+\endbibitem
+
+%%% 26
+\bibitem[\protect\citeauthoryear{Lan et~al.}{2024}]{lan2024cola}
+\begin{bchapter}
+\bauthor{\bsnm{Lan}, \binits{X.}},
+\bauthor{\bsnm{Gao}, \binits{C.}},
+\bauthor{\bsnm{Jin}, \binits{D.}},
+\bauthor{\bsnm{Li}, \binits{Y.}}:
+\bctitle{Stance detection with collaborative role-infused {LLM}-based agents}.
+In: \bbtitle{Proceedings of the International AAAI Conference on Web and Social
+  Media},
+vol. \bseriesno{18},
+pp. \bfpage{891}--\blpage{903}
+(\byear{2024}).
+\doiurl{10.1609/icwsm.v18i1.31360}
+\end{bchapter}
+\endbibitem
+
+%%% 27
+\bibitem[\protect\citeauthoryear{Allahgholi
+  et~al.}{2025}]{allahgholi2025conspro}
+\begin{barticle}
+\bauthor{\bsnm{Allahgholi}, \binits{M.}},
+\bauthor{\bsnm{Rahmani}, \binits{H.}},
+\bauthor{\bsnm{Soltanzadeh}, \binits{P.}}:
+\batitle{{ConSPro}: Context-aware stance detection using zero-shot prompting}.
+\bjtitle{Journal of Artificial Intelligence and Data Mining}
+\bvolume{13}(\bissue{2}),
+\bfpage{251}--\blpage{260}
+(\byear{2025})
+\end{barticle}
+\endbibitem
+
+%%% 28
+\bibitem[\protect\citeauthoryear{Gatto et~al.}{2023}]{gatto2023cot}
+\begin{bchapter}
+\bauthor{\bsnm{Gatto}, \binits{J.}},
+\bauthor{\bsnm{Sharif}, \binits{O.}},
+\bauthor{\bsnm{Preum}, \binits{S.M.}}:
+\bctitle{Chain-of-thought embeddings for stance detection on social media}.
+In: \bbtitle{Findings of the Association for Computational Linguistics: EMNLP
+  2023},
+pp. \bfpage{4154}--\blpage{4161}
+(\byear{2023}).
+\doiurl{10.18653/v1/2023.findings-emnlp.273}
+\end{bchapter}
+\endbibitem
+
+%%% 29
+\bibitem[\protect\citeauthoryear{Zhang et~al.}{2026a}]{zhang2026msme}
+\begin{bchapter}
+\bauthor{\bsnm{Zhang}, \binits{Y.}},
+\bauthor{\bsnm{Li}, \binits{A.}},
+\bauthor{\bsnm{Chen}, \binits{B.}},
+\bauthor{\bsnm{Sun}, \binits{J.}},
+\bauthor{\bsnm{Zhao}, \binits{X.}}:
+\bctitle{{MSME}: A multi-stage multi-expert framework for zero-shot stance
+  detection}.
+In: \bbtitle{Proceedings of the AAAI Conference on Artificial Intelligence},
+vol. \bseriesno{40},
+pp. \bfpage{34879}--\blpage{34887}
+(\byear{2026}).
+\doiurl{10.1609/aaai.v40i41.40791}
+\end{bchapter}
+\endbibitem
+
+%%% 30
+\bibitem[\protect\citeauthoryear{Zhang et~al.}{2026b}]{zhang2026induce}
+\begin{bchapter}
+\bauthor{\bsnm{Zhang}, \binits{B.}},
+\bauthor{\bsnm{Ma}, \binits{J.}},
+\bauthor{\bsnm{Niu}, \binits{F.}},
+\bauthor{\bsnm{Dong}, \binits{L.}},
+\bauthor{\bsnm{Cao}, \binits{J.}},
+\bauthor{\bsnm{Dai}, \binits{G.}}:
+\bctitle{Induce, align, predict: Zero-shot stance detection via cognitive
+  inductive reasoning}.
+In: \bbtitle{Proceedings of the AAAI Conference on Artificial Intelligence},
+vol. \bseriesno{40},
+pp. \bfpage{34638}--\blpage{34646}
+(\byear{2026}).
+\doiurl{10.1609/aaai.v40i41.40764}
+\end{bchapter}
+\endbibitem
+
+%%% 31
+\bibitem[\protect\citeauthoryear{Blei et~al.}{2003}]{blei2003latent}
+\begin{barticle}
+\bauthor{\bsnm{Blei}, \binits{D.M.}},
+\bauthor{\bsnm{Ng}, \binits{A.Y.}},
+\bauthor{\bsnm{Jordan}, \binits{M.I.}}:
+\batitle{Latent {D}irichlet allocation}.
+\bjtitle{Journal of Machine Learning Research}
+\bvolume{3},
+\bfpage{993}--\blpage{1022}
+(\byear{2003})
+\end{barticle}
+\endbibitem
+
+%%% 32
+\bibitem[\protect\citeauthoryear{Liang et~al.}{2022}]{liang2022jointcl}
+\begin{bchapter}
+\bauthor{\bsnm{Liang}, \binits{B.}},
+\bauthor{\bsnm{Zhu}, \binits{Q.}},
+\bauthor{\bsnm{Li}, \binits{X.}},
+\bauthor{\bsnm{Yang}, \binits{M.}},
+\bauthor{\bsnm{Gui}, \binits{L.}},
+\bauthor{\bsnm{He}, \binits{Y.}},
+\bauthor{\bsnm{Xu}, \binits{R.}}:
+\bctitle{{JointCL}: A joint contrastive learning framework for zero-shot stance
+  detection}.
+In: \bbtitle{Proceedings of the 60th Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)},
+pp. \bfpage{81}--\blpage{91}
+(\byear{2022}).
+\doiurl{10.18653/v1/2022.acl-long.7}
+\end{bchapter}
+\endbibitem
+
+%%% 33
+\bibitem[\protect\citeauthoryear{Grootendorst}{2022}]{grootendorst2022bertopic}
+\begin{botherref}
+\oauthor{\bsnm{Grootendorst}, \binits{M.}}:
+{BERTopic}: Neural topic modeling with a class-based {TF-IDF} procedure.
+\url{https://arxiv.org/abs/2203.05794}.
+arXiv preprint
+(2022)
+\end{botherref}
+\endbibitem
+
+%%% 34
+\bibitem[\protect\citeauthoryear{Arakelyan et~al.}{2023}]{arakelyan2023topic}
+\begin{bchapter}
+\bauthor{\bsnm{Arakelyan}, \binits{E.}},
+\bauthor{\bsnm{Arora}, \binits{A.}},
+\bauthor{\bsnm{Augenstein}, \binits{I.}}:
+\bctitle{Topic-guided sampling for data-efficient multi-domain stance
+  detection}.
+In: \bbtitle{Proceedings of the 61st Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)},
+pp. \bfpage{13448}--\blpage{13464}.
+\bpublisher{Association for Computational Linguistics},
+\blocation{Toronto, Canada}
+(\byear{2023}).
+\doiurl{10.18653/v1/2023.acl-long.752}
+\end{bchapter}
+\endbibitem
+
+%%% 35
+\bibitem[\protect\citeauthoryear{Yu et~al.}{2026}]{yu2026dimabsa}
+\begin{bchapter}
+\bauthor{\bsnm{Yu}, \binits{L.-C.}},
+\bauthor{\bsnm{Becker}, \binits{J.}},
+\bauthor{\bsnm{Muhammad}, \binits{S.H.}},
+\bauthor{\bsnm{Abdulmumin}, \binits{I.}},
+\bauthor{\bsnm{Lee}, \binits{L.-H.}},
+\bauthor{\bsnm{Lin}, \binits{Y.-L.}},
+\bauthor{\bsnm{Wang}, \binits{J.}},
+\bauthor{\bsnm{Wahle}, \binits{J.P.}},
+\bauthor{\bsnm{Ruas}, \binits{T.}},
+\bauthor{\bsnm{Loukachevitch}, \binits{N.}},
+\bauthor{\bsnm{Panchenko}, \binits{A.}},
+\bauthor{\bsnm{Alimova}, \binits{I.}},
+\bauthor{\bsnm{Wanzare}, \binits{L.D.A.}},
+\bauthor{\bsnm{Odhiambo}, \binits{N.}},
+\bauthor{\bsnm{Gipp}, \binits{B.}},
+\bauthor{\bsnm{Chang}, \binits{K.-W.}},
+\bauthor{\bsnm{Mohammad}, \binits{S.}}:
+\bctitle{{SemEval-2026} task 3: Dimensional aspect-based sentiment analysis
+  ({DimABSA})}.
+In: \bbtitle{Proceedings of the 20th International Workshop on Semantic
+  Evaluation (SemEval-2026)},
+pp. \bfpage{3753}--\blpage{3778}.
+\bpublisher{Association for Computational Linguistics},
+\blocation{San Diego, California, USA}
+(\byear{2026}).
+\doiurl{10.18653/v1/2026.semeval-1.452}
+\end{bchapter}
+\endbibitem
+
+%%% 36
+\bibitem[\protect\citeauthoryear{Viswanathan
+  et~al.}{2024}]{viswanathan2024fewshot}
+\begin{barticle}
+\bauthor{\bsnm{Viswanathan}, \binits{V.}},
+\bauthor{\bsnm{Gashteovski}, \binits{K.}},
+\bauthor{\bsnm{Lawrence}, \binits{C.}},
+\bauthor{\bsnm{Wu}, \binits{T.}},
+\bauthor{\bsnm{Neubig}, \binits{G.}}:
+\batitle{Large language models enable few-shot clustering}.
+\bjtitle{Transactions of the Association for Computational Linguistics}
+\bvolume{12},
+\bfpage{321}--\blpage{333}
+(\byear{2024})
+\doiurl{10.1162/tacl_a_00648}
+\end{barticle}
+\endbibitem
+
+%%% 37
+\bibitem[\protect\citeauthoryear{De~Raedt et~al.}{2023}]{deraedt2023idas}
+\begin{bchapter}
+\bauthor{\bsnm{De~Raedt}, \binits{M.}},
+\bauthor{\bsnm{Godin}, \binits{F.}},
+\bauthor{\bsnm{Demeester}, \binits{T.}},
+\bauthor{\bsnm{Develder}, \binits{C.}}:
+\bctitle{{IDAS}: Intent discovery with abstractive summarization}.
+In: \bbtitle{Proceedings of the 5th Workshop on NLP for Conversational AI
+  (NLP4ConvAI 2023)},
+pp. \bfpage{71}--\blpage{88}
+(\byear{2023}).
+\doiurl{10.18653/v1/2023.nlp4convai-1.7}
+\end{bchapter}
+\endbibitem
+
+%%% 38
+\bibitem[\protect\citeauthoryear{Pontiki et~al.}{2014}]{pontiki2014semeval}
+\begin{bchapter}
+\bauthor{\bsnm{Pontiki}, \binits{M.}},
+\bauthor{\bsnm{Galanis}, \binits{D.}},
+\bauthor{\bsnm{Pavlopoulos}, \binits{J.}},
+\bauthor{\bsnm{Papageorgiou}, \binits{H.}},
+\bauthor{\bsnm{Androutsopoulos}, \binits{I.}},
+\bauthor{\bsnm{Manandhar}, \binits{S.}}:
+\bctitle{{SemEval}-2014 task 4: Aspect based sentiment analysis}.
+In: \bbtitle{Proceedings of the 8th International Workshop on Semantic
+  Evaluation (SemEval 2014)},
+pp. \bfpage{27}--\blpage{35}
+(\byear{2014}).
+\doiurl{10.3115/v1/S14-2004}
+\end{bchapter}
+\endbibitem
+
+%%% 39
+\bibitem[\protect\citeauthoryear{Zhang et~al.}{2023}]{zhang2023absasurvey}
+\begin{barticle}
+\bauthor{\bsnm{Zhang}, \binits{W.}},
+\bauthor{\bsnm{Li}, \binits{X.}},
+\bauthor{\bsnm{Deng}, \binits{Y.}},
+\bauthor{\bsnm{Bing}, \binits{L.}},
+\bauthor{\bsnm{Lam}, \binits{W.}}:
+\batitle{A survey on aspect-based sentiment analysis: Tasks, methods, and
+  challenges}.
+\bjtitle{IEEE Transactions on Knowledge and Data Engineering}
+\bvolume{35}(\bissue{11}),
+\bfpage{11019}--\blpage{11038}
+(\byear{2023})
+\doiurl{10.1109/TKDE.2022.3230975}
+\end{barticle}
+\endbibitem
+
+%%% 40
+\bibitem[\protect\citeauthoryear{He et~al.}{2017}]{he2017unsupervised}
+\begin{bchapter}
+\bauthor{\bsnm{He}, \binits{R.}},
+\bauthor{\bsnm{Lee}, \binits{W.S.}},
+\bauthor{\bsnm{Ng}, \binits{H.T.}},
+\bauthor{\bsnm{Dahlmeier}, \binits{D.}}:
+\bctitle{An unsupervised neural attention model for aspect extraction}.
+In: \bbtitle{Proceedings of the 55th Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)},
+pp. \bfpage{388}--\blpage{397}
+(\byear{2017}).
+\doiurl{10.18653/v1/P17-1036}
+\end{bchapter}
+\endbibitem
+
+%%% 41
+\bibitem[\protect\citeauthoryear{Hasan and Ng}{2014}]{hasan2014why}
+\begin{bchapter}
+\bauthor{\bsnm{Hasan}, \binits{K.S.}},
+\bauthor{\bsnm{Ng}, \binits{V.}}:
+\bctitle{Why are you taking this stance? {I}dentifying and classifying reasons
+  in ideological debates}.
+In: \bbtitle{Proceedings of the 2014 Conference on Empirical Methods in Natural
+  Language Processing (EMNLP)},
+pp. \bfpage{751}--\blpage{762}
+(\byear{2014}).
+\doiurl{10.3115/v1/D14-1083}
+\end{bchapter}
+\endbibitem
+
+%%% 42
+\bibitem[\protect\citeauthoryear{Bar-Haim et~al.}{2020}]{barhaim2020keypoints}
+\begin{bchapter}
+\bauthor{\bsnm{Bar-Haim}, \binits{R.}},
+\bauthor{\bsnm{Eden}, \binits{L.}},
+\bauthor{\bsnm{Friedman}, \binits{R.}},
+\bauthor{\bsnm{Kantor}, \binits{Y.}},
+\bauthor{\bsnm{Lahav}, \binits{D.}},
+\bauthor{\bsnm{Slonim}, \binits{N.}}:
+\bctitle{From arguments to key points: Towards automatic argument
+  summarization}.
+In: \bbtitle{Proceedings of the 58th Annual Meeting of the Association for
+  Computational Linguistics},
+pp. \bfpage{4029}--\blpage{4039}
+(\byear{2020}).
+\doiurl{10.18653/v1/2020.acl-main.371}
+\end{bchapter}
+\endbibitem
+
+%%% 43
+\bibitem[\protect\citeauthoryear{Du et~al.}{2017}]{du2017tan}
+\begin{bchapter}
+\bauthor{\bsnm{Du}, \binits{J.}},
+\bauthor{\bsnm{Xu}, \binits{R.}},
+\bauthor{\bsnm{He}, \binits{Y.}},
+\bauthor{\bsnm{Gui}, \binits{L.}}:
+\bctitle{Stance classification with target-specific neural attention}.
+In: \bbtitle{Proceedings of the 26th International Joint Conference on
+  Artificial Intelligence (IJCAI)},
+pp. \bfpage{3988}--\blpage{3994}
+(\byear{2017}).
+\doiurl{10.24963/ijcai.2017/557}
+\end{bchapter}
+\endbibitem
+
+%%% 44
+\bibitem[\protect\citeauthoryear{Turian et~al.}{2010}]{turian2010word}
+\begin{bchapter}
+\bauthor{\bsnm{Turian}, \binits{J.}},
+\bauthor{\bsnm{Ratinov}, \binits{L.}},
+\bauthor{\bsnm{Bengio}, \binits{Y.}}:
+\bctitle{Word representations: A simple and general method for semi-supervised
+  learning}.
+In: \bbtitle{Proceedings of the 48th Annual Meeting of the Association for
+  Computational Linguistics},
+pp. \bfpage{384}--\blpage{394}
+(\byear{2010})
+\end{bchapter}
+\endbibitem
+
+%%% 45
+\bibitem[\protect\citeauthoryear{Coates and Ng}{2012}]{coates2012kmeans}
+\begin{bchapter}
+\bauthor{\bsnm{Coates}, \binits{A.}},
+\bauthor{\bsnm{Ng}, \binits{A.Y.}}:
+\bctitle{Learning feature representations with {K}-means}.
+In: \bbtitle{Neural Networks: Tricks of the Trade},
+\bedition{2}nd edn.
+\bsertitle{Lecture Notes in Computer Science},
+vol. \bseriesno{7700},
+pp. \bfpage{561}--\blpage{580}.
+\bpublisher{Springer},
+\blocation{Berlin, Heidelberg}
+(\byear{2012}).
+\doiurl{10.1007/978-3-642-35289-8_30}
+\end{bchapter}
+\endbibitem
+
+%%% 46
+\bibitem[\protect\citeauthoryear{OpenAI}{2026}]{openai-gpt6-luna}
+\begin{botherref}
+\oauthor{\bsnm{OpenAI}}:
+Introducing {GPT-6 Sol} and {Luna}.
+\url{https://openai.com/index/introducing-gpt-6-sol-and-luna/}.
+Model announcement, September 2026; API model gpt-6-luna. Accessed 8 October
+  2026
+(2026)
+\end{botherref}
+\endbibitem
+
+%%% 47
+\bibitem[\protect\citeauthoryear{OpenAI}{2024}]{openai-text-embedding-3-large}
+\begin{botherref}
+\oauthor{\bsnm{OpenAI}}:
+{text-embedding-3-large} Model.
+\url{https://platform.openai.com/docs/models/text-embedding-3-large}.
+Model documentation. Accessed 8 October 2026
+(2024)
+\end{botherref}
+\endbibitem
+
+%%% 48
+\bibitem[\protect\citeauthoryear{McInnes et~al.}{2018}]{mcinnes2018umap}
+\begin{barticle}
+\bauthor{\bsnm{McInnes}, \binits{L.}},
+\bauthor{\bsnm{Healy}, \binits{J.}},
+\bauthor{\bsnm{Saul}, \binits{N.}},
+\bauthor{\bsnm{Gro{\ss}berger}, \binits{L.}}:
+\batitle{{UMAP}: Uniform manifold approximation and projection}.
+\bjtitle{Journal of Open Source Software}
+\bvolume{3}(\bissue{29}),
+\bfpage{861}
+(\byear{2018})
+\doiurl{10.21105/joss.00861}
+\end{barticle}
+\endbibitem
+
+%%% 49
+\bibitem[\protect\citeauthoryear{Lloyd}{1982}]{lloyd1982least}
+\begin{barticle}
+\bauthor{\bsnm{Lloyd}, \binits{S.P.}}:
+\batitle{Least squares quantization in {PCM}}.
+\bjtitle{IEEE Transactions on Information Theory}
+\bvolume{28}(\bissue{2}),
+\bfpage{129}--\blpage{137}
+(\byear{1982})
+\doiurl{10.1109/TIT.1982.1056489}
+\end{barticle}
+\endbibitem
+
+%%% 50
+\bibitem[\protect\citeauthoryear{Dhillon and Modha}{2001}]{dhillon2001concept}
+\begin{barticle}
+\bauthor{\bsnm{Dhillon}, \binits{I.S.}},
+\bauthor{\bsnm{Modha}, \binits{D.S.}}:
+\batitle{Concept decompositions for large sparse text data using clustering}.
+\bjtitle{Machine Learning}
+\bvolume{42}(\bissue{1--2}),
+\bfpage{143}--\blpage{175}
+(\byear{2001})
+\doiurl{10.1023/A:1007612920971}
+\end{barticle}
+\endbibitem
+
+%%% 51
+\bibitem[\protect\citeauthoryear{Rousseeuw}{1987}]{rousseeuw1987silhouettes}
+\begin{barticle}
+\bauthor{\bsnm{Rousseeuw}, \binits{P.J.}}:
+\batitle{Silhouettes: A graphical aid to the interpretation and validation of
+  cluster analysis}.
+\bjtitle{Journal of Computational and Applied Mathematics}
+\bvolume{20},
+\bfpage{53}--\blpage{65}
+(\byear{1987})
+\doiurl{10.1016/0377-0427(87)90125-7}
+\end{barticle}
+\endbibitem
+
+%%% 52
+\bibitem[\protect\citeauthoryear{Cover and Hart}{1967}]{cover1967nearest}
+\begin{barticle}
+\bauthor{\bsnm{Cover}, \binits{T.M.}},
+\bauthor{\bsnm{Hart}, \binits{P.E.}}:
+\batitle{Nearest neighbor pattern classification}.
+\bjtitle{IEEE Transactions on Information Theory}
+\bvolume{13}(\bissue{1}),
+\bfpage{21}--\blpage{27}
+(\byear{1967})
+\doiurl{10.1109/TIT.1967.1053964}
+\end{barticle}
+\endbibitem
+
+%%% 53
+\bibitem[\protect\citeauthoryear{Chen and Guestrin}{2016}]{chen2016xgboost}
+\begin{bchapter}
+\bauthor{\bsnm{Chen}, \binits{T.}},
+\bauthor{\bsnm{Guestrin}, \binits{C.}}:
+\bctitle{{XGBoost}: A scalable tree boosting system}.
+In: \bbtitle{Proceedings of the 22nd ACM SIGKDD International Conference on
+  Knowledge Discovery and Data Mining},
+pp. \bfpage{785}--\blpage{794}
+(\byear{2016}).
+\doiurl{10.1145/2939672.2939785}
+\end{bchapter}
+\endbibitem
+
+%%% 54
+\bibitem[\protect\citeauthoryear{Breiman}{2001}]{breiman2001random}
+\begin{barticle}
+\bauthor{\bsnm{Breiman}, \binits{L.}}:
+\batitle{Random forests}.
+\bjtitle{Machine Learning}
+\bvolume{45}(\bissue{1}),
+\bfpage{5}--\blpage{32}
+(\byear{2001})
+\doiurl{10.1023/A:1010933404324}
+\end{barticle}
+\endbibitem
+
+%%% 55
+\bibitem[\protect\citeauthoryear{Li et~al.}{2021}]{li2021p}
+\begin{bchapter}
+\bauthor{\bsnm{Li}, \binits{Y.}},
+\bauthor{\bsnm{Sosea}, \binits{T.}},
+\bauthor{\bsnm{Sawant}, \binits{A.}},
+\bauthor{\bsnm{Nair}, \binits{A.J.}},
+\bauthor{\bsnm{Inkpen}, \binits{D.}},
+\bauthor{\bsnm{Caragea}, \binits{C.}}:
+\bctitle{{P-Stance}: A large dataset for stance detection in political domain}.
+In: \bbtitle{Findings of the Association for Computational Linguistics:
+  ACL-IJCNLP 2021},
+pp. \bfpage{2355}--\blpage{2365}
+(\byear{2021}).
+\doiurl{10.18653/v1/2021.findings-acl.208}
+\end{bchapter}
+\endbibitem
+
+%%% 56
+\bibitem[\protect\citeauthoryear{Mohammad et~al.}{2016}]{mohammad2016semeval}
+\begin{bchapter}
+\bauthor{\bsnm{Mohammad}, \binits{S.}},
+\bauthor{\bsnm{Kiritchenko}, \binits{S.}},
+\bauthor{\bsnm{Sobhani}, \binits{P.}},
+\bauthor{\bsnm{Zhu}, \binits{X.}},
+\bauthor{\bsnm{Cherry}, \binits{C.}}:
+\bctitle{{SemEval-2016} {Task} 6: Detecting stance in tweets}.
+In: \bbtitle{Proceedings of the 10th International Workshop on Semantic
+  Evaluation (SemEval-2016)},
+pp. \bfpage{31}--\blpage{41}
+(\byear{2016}).
+\doiurl{10.18653/v1/S16-1003}
+\end{bchapter}
+\endbibitem
+
+%%% 57
+\bibitem[\protect\citeauthoryear{Li and Caragea}{2023}]{li2023distilling}
+\begin{bchapter}
+\bauthor{\bsnm{Li}, \binits{Y.}},
+\bauthor{\bsnm{Caragea}, \binits{C.}}:
+\bctitle{Distilling calibrated knowledge for stance detection}.
+In: \bbtitle{Findings of the Association for Computational Linguistics: ACL
+  2023},
+pp. \bfpage{6316}--\blpage{6329}
+(\byear{2023}).
+\doiurl{10.18653/v1/2023.findings-acl.393}
+\end{bchapter}
+\endbibitem
+
+%%% 58
+\bibitem[\protect\citeauthoryear{Nguyen et~al.}{2020}]{nguyen2020bertweet}
+\begin{bchapter}
+\bauthor{\bsnm{Nguyen}, \binits{D.Q.}},
+\bauthor{\bsnm{Vu}, \binits{T.}},
+\bauthor{\bsnm{Nguyen}, \binits{A.T.}}:
+\bctitle{{BERTweet}: A pre-trained language model for {E}nglish tweets}.
+In: \bbtitle{Proceedings of the 2020 Conference on Empirical Methods in Natural
+  Language Processing: System Demonstrations},
+pp. \bfpage{9}--\blpage{14}
+(\byear{2020}).
+\doiurl{10.18653/v1/2020.emnlp-demos.2}
+\end{bchapter}
+\endbibitem
+
+%%% 59
+\bibitem[\protect\citeauthoryear{{UMAP developers}}{}]{umap-clustering-docs}
+\begin{botherref}
+\oauthor{\bsnm{{UMAP developers}}}:
+Using {UMAP} for Clustering.
+\url{https://umap-learn.readthedocs.io/en/latest/clustering.html}.
+Official documentation, version 0.5.8. Accessed 8 October 2026
+\end{botherref}
+\endbibitem
+
+%%% 60
+\bibitem[\protect\citeauthoryear{Dror et~al.}{2018}]{dror2018hitchhiker}
+\begin{bchapter}
+\bauthor{\bsnm{Dror}, \binits{R.}},
+\bauthor{\bsnm{Baumer}, \binits{G.}},
+\bauthor{\bsnm{Shlomov}, \binits{S.}},
+\bauthor{\bsnm{Reichart}, \binits{R.}}:
+\bctitle{The hitchhiker's guide to testing statistical significance in natural
+  language processing}.
+In: \bbtitle{Proceedings of the 56th Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)},
+pp. \bfpage{1383}--\blpage{1392}
+(\byear{2018}).
+\doiurl{10.18653/v1/P18-1128}
+\end{bchapter}
+\endbibitem
+
+%%% 61
+\bibitem[\protect\citeauthoryear{Golchin and Surdeanu}{2024}]{golchin2024time}
+\begin{bchapter}
+\bauthor{\bsnm{Golchin}, \binits{S.}},
+\bauthor{\bsnm{Surdeanu}, \binits{M.}}:
+\bctitle{Time travel in {LLMs}: Tracing data contamination in large language
+  models}.
+In: \bbtitle{The Twelfth International Conference on Learning Representations
+  (ICLR)}
+(\byear{2024})
+\end{bchapter}
+\endbibitem
+
+%%% 62
+\bibitem[\protect\citeauthoryear{Chang et~al.}{2009}]{chang2009tea}
+\begin{bchapter}
+\bauthor{\bsnm{Chang}, \binits{J.}},
+\bauthor{\bsnm{Boyd-Graber}, \binits{J.}},
+\bauthor{\bsnm{Gerrish}, \binits{S.}},
+\bauthor{\bsnm{Wang}, \binits{C.}},
+\bauthor{\bsnm{Blei}, \binits{D.M.}}:
+\bctitle{Reading tea leaves: How humans interpret topic models}.
+In: \bbtitle{Advances in Neural Information Processing Systems 22},
+pp. \bfpage{288}--\blpage{296}
+(\byear{2009})
+\end{bchapter}
+\endbibitem
+
+\end{thebibliography}
